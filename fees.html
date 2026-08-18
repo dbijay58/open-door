@@ -11,6 +11,7 @@
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0"
 >
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="services-styles.css">
 </head>
 <body>
 
@@ -26,11 +27,11 @@
 
     <nav class="primary-nav" id="primaryNav">
       <ul>
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="approach.html">Our Approach</a></li>
-        <li><a href="fees.html">Fees</a></li>
+        <li><a href="fees.html" class="active">Fees</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><button class="btn btn-primary">Book appointment</button></li>
       </ul>
@@ -40,58 +41,43 @@
 
 <main>
 
-  <div class="hero page-shell">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <span class="eyebrow">Counseling &amp; mental health support</span>
-        <h1>Opening the door to healing, growth and connection.</h1>
-        <p>A warm, compassionate and non-judgemental space where individuals, couples and families can feel heard, supported and understood. </p>
-        <div class="hero-actions">
-          <a href="contact.html" class="btn btn-primary">Book an appointment</a>
-          <a href="about.html" class="btn btn-outline">Learn More</a>
-        </div>
-        <div class="reassure-row">
-          <span>[✓ In-person &amp; online sessions]</span>
-          <span>[✓ Most insurance accepted]</span>
-        </div>
-      </div>
-      <div class="hero-media">
-        <div class="ph-img arch">
-          <img src="images/hero.jpg"/>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="hero-services">
+  <img src="images/fees-hero.jpg" alt="Counselling support">
 
+  <div class="hero-services-fade"></div>
 
-<section class="help-section">
-  <div class="help-media">
-    <img src="images/help.jpg"/>
+  <div class="hero-services-content">
+    <h1>Clear, upfront<br>and easy to book.</h1>
+
+    <div class="eyebrow material-symbols-outlined about-hero-icon">favorite</div>
+
+    <p>
+      We aim to make the process simple<br>
+      and transparent so you can focus on<br>
+      what matters most - your wellbeing.<br>
+    </p>
   </div>
+</div>
+
+<section class="services-section">
   <div class="help-section__grid">
-    <h2>Counselling for individuals, couples and families</h2>
-    <div class="help-section__items">
+    <div class="fees-section__items">
       <div>
-        <span class="material-symbols-outlined help-icon">person_heart</span>
-        <span class="help-item-text">Individual<br> Counselling</span>
+        <span class="fees-item-heading">Fees</span>
+        <span class="fees-item-text">Individual Session<br>$160 (50 minutes)</span>
+        <span class="fees-item-text">Couples & Family Session<br>$180 (75 minutes)</span>
       </div>
       <div>
-        <span class="material-symbols-outlined help-icon">group</span>
-        <span class="help-item-text">Couple<br> Counselling</span>
+        <span class="fees-item-heading">Medicare Rebates</span>
+        <span class="fees-item-text">You may be eligible for a medicare rebate with a valid Mental Health Care Plan.</span>
+        <span class="fees-item-text">We'll guide you through the process.</span>
       </div>
       <div>
-        <span class="material-symbols-outlined help-icon">family_restroom</span>
-        <span class="help-item-text">Family<br> Counselling</span>
-      </div>
-      <div>
-        <span class="material-symbols-outlined help-icon">psychiatry</span>
-        <span class="help-item-text">Trauma-Informed <br>Care</span>
-      </div>
-      <div>
-        <span class="material-symbols-outlined help-icon">desktop_windows</span>
-        <span class="help-item-text">Online<br> Counselling</span>
+        <span class="fees-item-heading">Booking</span>
+        <span class="fees-item-text">Booking is easy. Choose a time that works for you and we'll take care of the rest.</span>
       </div>
     </div>
+    <button class="btn btn-primary-large">Book Appointment</button>
   </div>
 </section>
 
@@ -120,6 +106,7 @@
     </div>
   </div>
 </footer>
+
 <script src="script.js"></script>
 </body>
 </html>

@@ -11,6 +11,7 @@
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,300,0,0"
 >
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="services-styles.css">
 </head>
 <body>
 
@@ -26,10 +27,10 @@
 
     <nav class="primary-nav" id="primaryNav">
       <ul>
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="services.html">Services</a></li>
-        <li><a href="approach.html">Our Approach</a></li>
+        <li><a href="approach.html" class="active">Our Approach</a></li>
         <li><a href="fees.html">Fees</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><button class="btn btn-primary">Book appointment</button></li>
@@ -40,56 +41,53 @@
 
 <main>
 
-  <div class="hero page-shell">
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <span class="eyebrow">Counseling &amp; mental health support</span>
-        <h1>Opening the door to healing, growth and connection.</h1>
-        <p>A warm, compassionate and non-judgemental space where individuals, couples and families can feel heard, supported and understood. </p>
-        <div class="hero-actions">
-          <a href="contact.html" class="btn btn-primary">Book an appointment</a>
-          <a href="about.html" class="btn btn-outline">Learn More</a>
-        </div>
-        <div class="reassure-row">
-          <span>[✓ In-person &amp; online sessions]</span>
-          <span>[✓ Most insurance accepted]</span>
-        </div>
-      </div>
-      <div class="hero-media">
-        <div class="ph-img arch">
-          <img src="images/hero.jpg"/>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="hero-services">
+  <img src="images/about-hero.jpg" alt="Counselling support">
 
+  <div class="hero-services-fade"></div>
 
-<section class="help-section">
-  <div class="help-media">
-    <img src="images/help.jpg"/>
+  <div class="hero-services-content">
+    <h1>A thoughtful, evidence-based<br>approach to lasting change.</h1>
+
+    <div class="eyebrow material-symbols-outlined about-hero-icon">favorite</div>
+
+    <p>
+      Our approach is collaborative, respectful<br>
+      and tailored to you. We draw on proven<br>
+      therapies and a trauma-informed lens <br>
+      to help you build insight, resilience and<br>
+      meaningful change.
+    </p>
   </div>
+</div>
+
+<section class="services-section">
   <div class="help-section__grid">
-    <h2>Counselling for individuals, couples and families</h2>
-    <div class="help-section__items">
+    <div class="approach-section__items">
       <div>
-        <span class="material-symbols-outlined help-icon">person_heart</span>
-        <span class="help-item-text">Individual<br> Counselling</span>
+        <span class="material-symbols-outlined help-icon">person_shield</span>
+        <span class="approach-item-heading">Safe & Welcoming</span>
+        <span class="approach-item-text">A non-judgmental space where you can feel heard and accepted.</span>
       </div>
       <div>
-        <span class="material-symbols-outlined help-icon">group</span>
-        <span class="help-item-text">Couple<br> Counselling</span>
+        <span class="material-symbols-outlined help-icon">crowdsource</span>
+        <span class="approach-item-heading">Collaborative</span>
+        <span class="approach-item-text">We work together to understand your needs and create a plan that suits you.</span>
       </div>
       <div>
-        <span class="material-symbols-outlined help-icon">family_restroom</span>
-        <span class="help-item-text">Family<br> Counselling</span>
+        <span class="material-symbols-outlined help-icon">fact_check</span>
+        <span class="approach-item-heading">Evidence-Based</span>
+        <span class="approach-item-text">We use proven therapies to support meaningful and lasting change.</span>
       </div>
       <div>
         <span class="material-symbols-outlined help-icon">psychiatry</span>
-        <span class="help-item-text">Trauma-Informed <br>Care</span>
+        <span class="approach-item-heading">Trauma-Informed</span>
+        <span class="approach-item-text">We understand the impact of trauma and prioritise safety and empowerment.</span>
       </div>
       <div>
-        <span class="material-symbols-outlined help-icon">desktop_windows</span>
-        <span class="help-item-text">Online<br> Counselling</span>
+        <span class="material-symbols-outlined help-icon">brightness_5</span>
+        <span class="approach-item-heading">Strength-Based</span>
+        <span class="approach-item-text">We focus on your strengths, values and capacity to grow./span>
       </div>
     </div>
   </div>
@@ -120,6 +118,7 @@
     </div>
   </div>
 </footer>
+
 <script src="script.js"></script>
 </body>
 </html>
